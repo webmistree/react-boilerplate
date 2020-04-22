@@ -1,10 +1,14 @@
-function component(){
-    const element = document.createElement("div");
-    element.innerHTML = "Hello world";
-    return element;
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const App = ()=>{
+    return (<>
+        Hello World, from react
+        </>);
 }
 
-document.getElementById("app").appendChild(component());
+
+ReactDOM.render(<App/>, document.getElementById("app"));
 
 
-    
+
