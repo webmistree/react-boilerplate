@@ -1,14 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import CrudForm from "./components/CrudForm";
 
 const App = () => {
-  return (
-    <>
-      Hello World
-      <CrudForm></CrudForm>
-    </>
-  );
+  return <>Hello World</>;
 };
 
 ReactDOM.render(<App />, document.getElementById("app"));
